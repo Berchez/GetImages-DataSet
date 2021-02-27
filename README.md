@@ -11,7 +11,7 @@ If you want to make artificial intelligence that differentiates classes, but you
 
 > pip install selenium
 
-4. When you finish downloading, also download the latest version of [ChromeDriver](https://chromedriver.chromium.org/downloads) and save it in the folder "C:\Program Files (x86)".
+4. When you finish downloading, also download the latest version of [ChromeDriver](https://chromedriver.chromium.org/downloads) and save it in the folder "C:/Program Files (x86)".
 
 5. Once this is done, we will have to [create a profile](https://support.google.com/chrome/answer/2364824?co=GENIE.Platform%3DDesktop&hl=en) in Chrome (if you don't already have at least one). Then, access the directory 
 > "C:/Users/**_YOUR-PC-USERNAME_**/AppData/Local/Google/Chrome"
@@ -24,7 +24,7 @@ and create a folder called "AutoBot" (without the quotes). Once this is done, co
 ![code](https://user-images.githubusercontent.com/50505615/109402564-9c73e280-7935-11eb-9e26-61c7e25bd439.png)
 
 ## :rocket: How to use
-[Open the terminal in the downloaded folder](https://www.groovypost.com/howto/open-command-window-terminal-window-specific-folder-windows-mac-linux/) And type:
+[Open the terminal in the downloaded folder](https://www.groovypost.com/howto/open-command-window-terminal-window-specific-folder-windows-mac-linux/) and type:
 > ```python index.py```
 
 ## License
