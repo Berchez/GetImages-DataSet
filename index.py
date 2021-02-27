@@ -31,13 +31,13 @@ for y in range(1, (numberOfPages + 1)):
     content = driver.find_elements_by_class_name('gallery-asset__thumb')
     for x in range(0, (len(content))):
         imagemNum = imagemNum + 1
-        urllib.request.urlretrieve(content[x].get_attribute("src"), f'./imagens/image-{(imagemNum)}.jpg')
+        urllib.request.urlretrieve(content[x].get_attribute("src"), f'./imagens/{imageToBeDonwloaded}-{(imagemNum)}.jpg')
 
 driver.get(f'https://www.gettyimages.com.br/fotos/{imageToBeDonwloaded}?page={numberOfPages + 1}&phrase={imageToBeDonwloaded}&sort=mostpopular')
 sleep(10)
 content = driver.find_elements_by_class_name('gallery-asset__thumb')
 for z in range(0, RestOfImages):
     imagemNum = imagemNum + 1
-    urllib.request.urlretrieve(content[z].get_attribute("src"), f'./imagens/image-{(imagemNum)}.jpg')
+    urllib.request.urlretrieve(content[z].get_attribute("src"), f'./imagens/{imageToBeDonwloaded}-{(imagemNum)}.jpg')
 
 driver.quit()
