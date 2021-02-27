@@ -19,5 +19,7 @@ If you want to make artificial intelligence that differentiates classes, but you
 
 and create a folder called "AutoBot" (without the quotes). Once this is done, copy all the files from the "UserData" folder and paste in the "AutoBot" folder.
 
-Troque o caminho que está na linha 63 do arquivo 'index.py', colocando o nome do seu PC:
+1. Change the path that is in line 20 of the 'index.py' file, putting the name of your PC:
+
+![code](https://user-images.githubusercontent.com/50505615/109402564-9c73e280-7935-11eb-9e26-61c7e25bd439.png)
 
