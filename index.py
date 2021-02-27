@@ -17,8 +17,8 @@ RestOfImages = numberOfImages - (numberOfPages * 60)
 
 options = webdriver.ChromeOptions() 
 
-options.add_argument("user-data-dir=C:\\Users\\Berchez\\AppData\\Local\\Google\\Chrome\\AutoBot2") #Path to your chrome profile
-options.add_argument('--profile-directory=Profile 2')
+options.add_argument("user-data-dir=C:\\Users\\YOUR-PC-USERNAME\\AppData\\Local\\Google\\Chrome\\AutoBot") #Path to your chrome profile
+options.add_argument('--profile-directory=Profile 1')
 options.add_argument("start-maximized")
 options.add_argument('headless')
 driver = webdriver.Chrome(executable_path="C:\\Program Files (x86)\\chromedriver.exe", chrome_options=options)
